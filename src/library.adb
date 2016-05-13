@@ -59,8 +59,8 @@ begin
 
    -- I want to use a SQL_Insert query
 
-   Q := SQL_Insert (Fields => Books.Title & Books.Pages,
-                    Values => "??");
+   Q := Gnatcoll.SQL.SQL_Insert (Fields => Books.Title & Books.Pages,
+                                 Values => );
    execute(DB, Q);
    DB.commit;
 
