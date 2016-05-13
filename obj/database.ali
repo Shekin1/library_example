@@ -1,0 +1,148 @@
+V "GNAT Lib v4.6"
+A -gnat05
+A -g
+A -gnatA
+P SS ZX
+R nnnnnnnnvnnvnnnnnnnnnnnnnnvnnnnnnnnnnnnnnvnnvnnnnnnnnnnnnnvnnvnvnnnnnnnnnnnnnnnn
+
+U database%b		database.adb		879eefe1 NE OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+
+U database%s		database.ads		af21dc5b EB EE OO PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W database_names%s	database_names.ads	database_names.ali
+W gnatcoll%s		gnatcoll.ads		gnatcoll.ali
+W gnatcoll.sql%s	gnatcoll-sql.adb	gnatcoll-sql.ali
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-calend.ads		20090409150019 343c83dd
+D a-charac.ads		20070912115821 2d3ec45b
+D a-chlat1.ads		20070912115821 2825df20
+D a-contai.ads		20101025135029 61e5e089
+D a-cdlili.ads		20090409150019 8288c973
+D a-cohata.ads		20101026104202 f4016a1a
+D a-cidlli.ads		20090409150019 dd96e10c
+D a-cihase.ads		20090409150019 18e34e9d
+D a-except.ads		20090727140100 0c711ac9
+D a-finali.ads		20090409150019 e5e85fa4
+D a-filico.ads		20090409150019 872dc219
+D a-stream.ads		20090409150019 2ca4ee37
+D a-string.ads		20070406091342 90ac6797
+D a-strmap.ads		20090409150019 9cb836fb
+D a-strunb.ads		20101008130255 fe8d9a91
+D a-tags.ads		20101021101406 c7695348
+D a-unccon.ads		20070406091342 f9eb8f06
+D a-uncdea.ads		20070406091342 f15a5ed1
+D database.ads		20160503130211 4ca1ef5a
+D database.adb		20160503130211 cb3f00bb
+D database_names.ads	20160503130211 19c0b00c
+D gnatcoll.ads		20160420084021 6a5da479
+D gnatcoll-sql.ads	20160511111743 fa40830d
+D gnatcoll-sql_impl.ads	20120323135339 62efce64
+D system.ads		20120503162406 2d1a1afa
+D s-exctab.ads		20090417131547 66e51330
+D s-finimp.ads		20090409150019 46853fe8
+D s-finroo.ads		20090409150019 dbb860c9
+D s-parame.ads		20091130110856 9c5d83fa
+D s-secsta.ads		20090707124243 eea35a36
+D s-soflin.ads		20090729085153 9414c974
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20101021102512 c4241c00
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stratt.ads		20100909123135 aedef97e
+D s-string.ads		20090417130712 46b01415
+D s-ststop.ads		20090417130712 ee472be4
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+X 20 database.ads
+3K9*Database 78l5 78e13 21|1b14 14l5 14t13
+7H9*T_Media<24|133R9> 8d8 8d20 8d50 23e14 26r23 59r23 24|137P24 818P25
+8p8*Table_Name{24|116P12} 9r34 11r31 14r31 17r32 20r35
+8p20*Instance{24|116P12} 9r46 11r43 14r43 17r44 20r47
+8i50*Index{integer} 9r56 11r59 14r62 17r64 20r70
+11r7*Id{24|210R9}
+14r7*Title{24|217R9}
+17r7*Author{24|217R9}
+20r7*Published{24|271R9}
+25H9*T_Abstract_Books<7R9> 25d27 25d57 32e14 35r14 37r14 24|137P24 818P25
+25p27*Instance{24|116P12} 26r42 28r44 29r50
+25i57*Index{integer} 26r52 28r63 29r75
+28r7*Pages{24|210R9}
+29r7*Borrowed_By{24|210R9} 21|7r19
+34R9*T_Books<25R9> 34d18 35e62 72r24 75r12 21|5r24 24|137P24 818P25
+34p18*Instance{24|116P12} 35r32
+36R9*T_Numbered_Books<25R9> 36d27 37e61 24|137P24 818P25
+36i27*Index{integer} 37r38
+39H9*T_Abstract_Customers<24|133R9> 39d31 39d61 51e14 54r14 56r14 24|137P24
+. 818P25
+39p31*Instance{24|116P12} 40r48 42r45 45r45 48r44
+39i61*Index{integer} 40r58 42r61 45r64 48r62
+42r7*Id{24|210R9} 21|7r41 12r41
+45r7*First{24|217R9}
+48r7*Last{24|217R9}
+53R9*T_Customers<39R9> 53d22 54e66 72r49 73r48 76r16 21|5r49 10r48 24|137P24
+. 818P25
+53p22*Instance{24|116P12} 54r36
+55R9*T_Numbered_Customers<39R9> 55d31 56e65 24|137P24 818P25
+55i31*Index{integer} 56r42
+58H9*T_Abstract_Dvds<7R9> 58d26 58d56 65e14 68r14 70r14 24|137P24 818P25
+58p26*Instance{24|116P12} 59r41 61r44 62r49
+58i56*Index{integer} 59r51 61r64 62r74
+61r7*Region{24|210R9}
+62r7*Borrowed_By{24|210R9} 21|12r19
+67R9*T_Dvds<58R9> 67d17 68e61 73r24 77r11 21|10r24 24|137P24 818P25
+67p17*Instance{24|116P12} 68r31
+69R9*T_Numbered_Dvds<58R9> 69d26 70e60 24|137P24 818P25
+69i26*Index{integer} 70r37
+72V13*FK{24|109R12} 72>17 72>39 21|5b13 8l8 8t10
+72c17 Self<34R9> 21|5b17 7r14
+72c39 Foreign<53R9> 21|5b39 7r33
+73V13*FK{24|109R12} 73>17 73>38 21|10b13 13l8 13t10
+73c17 Self<67R9> 21|10b17 12r14
+73c38 Foreign<53R9> 21|10b38 12r33
+75r4*Books{34R9}
+76r4*Customers{53R9}
+77r4*Dvds{67R9}
+X 22 database_names.ads
+2K9*Database_Names 20|2w6 2r26 22|31e19
+5p4*Ta_Books{24|116P12} 20|26r32 28r34 29r40
+7p4*Ta_Customers{24|116P12} 20|40r34 42r31 45r31 48r30
+9p4*Ta_Dvds{24|116P12} 20|59r32 61r35 62r40
+14p4*N_Author{24|116P12} 20|17r54
+16p4*N_Borrowed_By{24|116P12} 20|29r60 62r59
+18p4*N_First{24|116P12} 20|45r55
+20p4*N_Id{24|116P12} 20|11r53 42r55
+22p4*N_Last{24|116P12} 20|48r54
+24p4*N_Pages{24|116P12} 20|28r54
+26p4*N_Published{24|116P12} 20|20r57
+28p4*N_Region{24|116P12} 20|61r54
+30p4*N_Title{24|116P12} 20|14r53
+X 23 gnatcoll.ads
+24K9*GNATCOLL 20|1r6 1r24 23|26e13
+X 24 gnatcoll-sql.ads
+107K18*SQL 20|1w15 1r33 24|1133e17
+109R12*SQL_Criteria{25|364R9} 20|72r75 73r74 21|5r75 10r74
+116P12*Cst_String_Access{25|32P9} 20|8r31 25r38 34r29 39r42 53r33 58r37 67r28
+. 21|3r13
+133H9*SQL_Table<25|177R9> 20|9r23 40r23 24|817e66
+137V24*To_String{string}<25|172p13>
+210R9*SQL_Field_Integer<25|473R12[208]> 20|11r12 28r15 29r21 42r12 61r16
+. 62r21 24|210e71
+217R9*SQL_Field_Text<25|473R12[215]> 20|14r15 17r16 45r15 48r14 24|217e65
+271R9*SQL_Field_Date<25|473R12[269]> 20|20r19 24|271e65
+533V13*"="=534:44{boolean} 6|40i18
+818U25 Append_Tables<25|168p14>
+X 25 gnatcoll-sql_impl.ads
+32P9*Cst_String_Access(string)
+339H12 Base_Field<210R9>
+473R12*Field<210R9>
+522V16*"="{364R9} 21|7s31[24|208] 12s31[24|208]
+

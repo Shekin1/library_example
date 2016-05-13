@@ -1,0 +1,190 @@
+V "GNAT Lib v4.6"
+M P W=b
+A -gnat05
+A -g
+A -gnatA
+P SS ZX
+R nnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnvnnnnnnvnnvnnnnnnnnnnnnnvnvvnnnnnnnnnnnnnnnnnn
+
+U library%b		library.adb		3b30db2d NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W database%s		database.adb		database.ali
+W gnatcoll%s		gnatcoll.ads		gnatcoll.ali
+W gnatcoll.sql%s	gnatcoll-sql.adb	gnatcoll-sql.ali
+W gnatcoll.sql.exec%s	gnatcoll-sql-exec.adb	gnatcoll-sql-exec.ali
+W gnatcoll.sql.inspect%s  gnatcoll-sql-inspect.adb  gnatcoll-sql-inspect.ali
+W gnatcoll.sql.sessions%s  gnatcoll-sql-sessions.adb  gnatcoll-sql-sessions.ali
+W gnatcoll.sql.sqlite%s	gnatcoll-sql-sqlite.adb	gnatcoll-sql-sqlite.ali
+W gnatcoll.traces%s	gnatcoll-traces.adb	gnatcoll-traces.ali
+W gnatcoll.vfs%s	gnatcoll-vfs.adb	gnatcoll-vfs.ali
+W orm%s			orm.adb			orm.ali
+W system%s		system.ads		system.ali
+W system.concat_4%s	s-conca4.adb		s-conca4.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-calend.ads		20090409150019 343c83dd
+D a-charac.ads		20070912115821 2d3ec45b
+D a-chlat1.ads		20070912115821 2825df20
+D a-contai.ads		20101025135029 61e5e089
+D a-cdlili.ads		20090409150019 8288c973
+D a-cohata.ads		20101026104202 f4016a1a
+D a-cidlli.ads		20090409150019 dd96e10c
+D a-cihama.ads		20090409150019 2e09bd21
+D a-cihase.ads		20090409150019 18e34e9d
+D a-ciorma.ads		20090409150019 204116c9
+D a-crbltr.ads		20101025152602 a9d2c4df
+D a-except.ads		20090727140100 0c711ac9
+D a-finali.ads		20090409150019 e5e85fa4
+D a-filico.ads		20090409150019 872dc219
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-stream.ads		20090409150019 2ca4ee37
+D a-string.ads		20070406091342 90ac6797
+D a-strhas.ads		20091130110856 0fca75f9
+D a-strmap.ads		20090409150019 9cb836fb
+D a-strunb.ads		20101008130255 fe8d9a91
+D a-tags.ads		20101021101406 c7695348
+D a-textio.ads		20091028140912 386df5d4
+D a-unccon.ads		20070406091342 f9eb8f06
+D a-uncdea.ads		20070406091342 f15a5ed1
+D database.ads		20160503130211 4ca1ef5a
+D database_names.ads	20160503130211 19c0b00c
+D gnat.ads		20050905075125 fd2ad2f1
+D g-calend.ads		20100909103250 ed16288f
+D g-os_lib.ads		20090409150019 0db74523
+D g-souinf.ads		20050905075401 e66ff50e
+D g-string.ads		20090409150019 c6abc540
+D gnatcoll.ads		20160420084021 6a5da479
+D gnatcoll-io.ads	20111220093209 540ffb97
+D gnatcoll-io-native.ads  20111220093209 442e0668
+D gnatcoll-path.ads	20111220093209 44783065
+D gnatcoll-pools.ads	20111220093209 4bb48144
+D gnatcoll-refcount.ads	20111220093209 b9955a59
+D gnatcoll-refcount-weakref.ads  20111220093209 a67e3347
+D gnatcoll-sql.ads	20160511111743 fa40830d
+D gnatcoll-sql-exec.ads	20120402130222 5e32825c
+D gnatcoll-sql-inspect.ads  20120406161129 3bceb1de
+D gnatcoll-sql-orm.ads	20111220093209 22883b9d
+D gnatcoll-sql-orm-impl.ads  20120323135339 4dd6bb12
+D gnatcoll-sql-sessions.ads  20120217205341 c9c89b74
+D gnatcoll-sql-sqlite.ads  20120405153751 bad13e78
+D gnatcoll-sql_impl.ads	20120323135339 62efce64
+D gnatcoll-traces.ads	20120319143650 adda3db6
+D gnatcoll-tribooleans.ads  20111220093209 3139d576
+D gnatcoll-vfs.ads	20111220093209 2ef5f528
+D gnatcoll-vfs_types.ads  20111220093209 14be4a8d
+D interfac.ads		20090409150019 f77d8799
+D i-c.ads		20101007125900 809c38c4
+D i-cstrin.ads		20090417131547 f3023ec4
+D i-cstrea.ads		20100622165701 1bd72c32
+D library.adb		20160513105734 56a65e0d
+D orm.ads		20160503132844 76d042b3
+D system.ads		20120503162406 2d1a1afa
+D s-addima.ads		20090409150019 a1ec9d3a
+D s-conca4.ads		20090420091404 025fe3be
+D s-crtl.ads		20100617122610 ac77b159
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20100909103250 443b9d66
+D s-finimp.ads		20090409150019 46853fe8
+D s-finroo.ads		20090409150019 dbb860c9
+D s-imgint.ads		20090409150019 02dbe0c2
+D s-os_lib.ads		20100910151410 e0681e2d
+D s-parame.ads		20091130110856 9c5d83fa
+D s-secsta.ads		20090707124243 eea35a36
+D s-soflin.ads		20090729085153 9414c974
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20101021102512 c4241c00
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stratt.ads		20100909123135 aedef97e
+D s-string.ads		20090417130712 46b01415
+D s-ststop.ads		20090417130712 ee472be4
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-wchcon.ads		20090417130712 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 56|32r6 32r33
+X 23 a-textio.ads
+49K13*Text_IO 472e16 56|32w10 32r37
+264U14*Put_Line 56|80s7
+X 26 database.ads
+3K9*Database 78e13 56|30w6 30r33
+14r7*Title{40|217R9} 56|75r24
+28r7*Pages{40|210R9} 56|75r38
+48r7*Last{40|217R9} 56|77r53
+72V13*FK{40|109R12} 56|77s24
+75r4*Books{34R9} 56|75r18 75r32 76r18 77r18
+76r4*Customers{53R9} 56|76r26 77r28 77r43
+X 33 gnatcoll.ads
+24K9*GNATCOLL 26e13 56|24r6 24r33 25r6 25r33 26r6 27r6 27r33 28r6 28r33 29r6
+. 29r33 33r6 33r33 37r7 43r4
+X 38 gnatcoll-refcount.ads
+71R12*Ref
+X 40 gnatcoll-sql.ads
+107K18*SQL 1133e17 56|24w15 24r42 25r15 25r42 26r15 27r15 27r42 28r15 28r42
+. 37r16
+111R9*SQL_Query 1017e14 56|39r9
+175V13*"&"{129R9} 56|76s24
+320V13*"&"=321:44{47|200R9} 56|75s30
+533V13*"="=534:44{boolean} 6|40i18
+548V13*"and"{109R12} 56|77s39
+652V13*SQL_Select{111R9} 56|74s9
+653c7 Fields<47|189R9> 56|75r8
+654c7 From<47|165R9> 56|76r8
+655r7 Where{109R12} 56|77r8
+X 41 gnatcoll-sql-exec.ads
+108K22*Exec 966e22 56|25w19 25r46
+119R9*Forward_Cursor 894e14 56|40r9
+120r4*No_Element{119R9} 56|87r9
+194P9*Database_Description(192R9) 56|36r12
+208P9*Database_Connection(204R9) 56|38r9
+223y13*Build_Connection{208P9} 56|45R16
+233U14*Free 56|89s4
+254U14*Fetch 56|78s6
+311U14*Free 56|88s4
+389U14*Commit=391:15 56|53s7
+480V13*Has_Row{boolean} 56|79s12
+489U14*Next 56|82s9
+497V13*Value{string} 56|80s43
+504V13*Integer_Value{integer} 56|81s33
+673R9*Prepared_Statement 961e75 56|41r11
+X 42 gnatcoll-sql-inspect.ads
+43K22*Inspect 476e25 56|27w19 27r46
+284V24*Read_Schema{235R9}<265p13> 56|51R58
+299V13*New_Schema_IO<281R9> 56|51s18
+308U14*Load_Data 56|49s4
+311r7 Schema{235R9} 56|51r8
+X 44 gnatcoll-sql-orm-impl.ads
+61H12 Manager_Type<43|67R9>
+X 45 gnatcoll-sql-sessions.ads
+39K22*Sessions 594e26 56|28w19 28r46
+X 46 gnatcoll-sql-sqlite.ads
+30K22*Sqlite 93e24 56|26w19 37r20
+57V13*Setup{41|194P9} 56|37s27
+X 47 gnatcoll-sql_impl.ads
+339H12 Base_Field<210R9>
+473R12*Field<210R9>
+528V16*"="{364R9} 56|77s58[40|215]
+X 48 gnatcoll-traces.ads
+33K18*Traces 500e20 56|33w15 33r42 43r13
+135U14*Parse_Config_File 56|43s20
+X 50 gnatcoll-vfs.ads
+62K18*VFS 602e17 56|29w15 29r42
+141V13*Create{97R9} 56|50s12 51s33
+X 56 library.adb
+35U11*Library 35b11 91l5 91t12
+36p4 Descr{41|194P9} 45r10 89m10
+38p4 DB{41|208P9} 45m4 50r8 53r4 78r13 88m10
+39r4 Q{40|111R9} 74m4 78r17
+40r4 R{41|119R9} 78m4 79r10 80r41 81r31 82m7 87m4
+41r4 Stmt{41|673R9}
+X 57 orm.ads
+18K9*Orm 56|31w6 31r33 57|458e8
+
