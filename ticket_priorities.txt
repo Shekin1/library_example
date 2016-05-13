@@ -1,0 +1,6 @@
+table ticket_priorities:
+name		| priority      | category
+high		| 3             | customer
+medium		| 2             | customer
+low		| 1             | customer
+high_internal	| 4             | internal
